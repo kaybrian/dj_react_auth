@@ -24,6 +24,8 @@ class UserCreateSerializers(serializers.ModelSerializer):
                 }
             )
 
+        return data
+
 
 
     def create(self, validated_data):
