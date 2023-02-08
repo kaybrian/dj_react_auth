@@ -1,8 +1,11 @@
+import Layout from "components/Layout";
+
+
 const LoginPage = () => {
     return (
-        <div>
+        <Layout title="Auth site | Login page" content="login page">
             <h1>Login</h1>
-        </div>
+        </Layout>
     )
 }
 

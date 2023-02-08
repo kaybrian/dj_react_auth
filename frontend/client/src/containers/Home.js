@@ -1,8 +1,10 @@
+import Layout from "components/Layout";
+
 const HomePage = () => {
     return (
-        <div>
+        <Layout title="Auth site | Home" content="home page">
             <h1>Home</h1>
-        </div>
+        </Layout>
     )
 }
 

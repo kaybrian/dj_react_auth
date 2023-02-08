@@ -1,8 +1,11 @@
+import Layout from "components/Layout";
+
+
 const Register = () => {
     return (
-        <div>
+        <Layout title="Auth site | Register User" content="Register for the platform">
             <h1>Register</h1>
-        </div>
+        </Layout>
     )
 }
 
